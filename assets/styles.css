@@ -15,17 +15,28 @@ b, strong, th {
 }
 #main {
   margin: 0 auto;
-}
-h1 {
-  margin: 30px 0;
-  font-size: 36pt;
+  padding-top: 20px;
 }
 h1, h2, h3, h4, h5 {
   font-weight: 300;
 }
+.site-title {
+  margin: 30px 0;
+}
+.site-title h1 {
+  margin: 0;
+  font-size: 36pt;
+}
+.site-title p {
+  margin: 0;
+}
 .family-photo {
+  overflow: hidden;
+}
+.family-photo img {
   width: 100%;
   height: auto;
+  margin-top: -46px;
 }
 .profile {
   margin: 0 5px;
@@ -52,8 +63,9 @@ h1, h2, h3, h4, h5 {
   font-size: 2em;
   line-height: 1.1em;
 }
-.profile .looking-for-work {
+.profile .looking-for-work, .profile .looking-for-work a {
   font-weight: bold;
+  color: #00920e;
 }
 .profile .links {
   display: inline-block;
@@ -106,4 +118,10 @@ h1, h2, h3, h4, h5 {
 }
 #footer {
   clear: both;
+  opacity: 0.5;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+#footer:hover {
+  opacity: 1;
 }
