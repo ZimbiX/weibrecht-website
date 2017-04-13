@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 10pt;
+  line-height: 2.8ex;
+  text-align: center;
+  background-color: #020913;
+  color: #fff;
+}
+b, strong, th {
+  font-weight: 600;
+}
+#main {
+  margin: 0 auto;
+}
+h1 {
+  margin: 30px 0;
+  font-size: 36pt;
+}
+h1, h2, h3, h4, h5 {
+  font-weight: 300;
+}
+.family-photo {
+  width: 100%;
+  height: auto;
+}
+.profile {
+  margin: 0 5px;
+  margin-bottom: 30px;
+  border-radius: 6px;
+  overflow: hidden;
+  font-size: 1.1em;
+  background-color: #e2e2e2;
+  color: #111111
+}
+.profile > * {
+  margin-bottom: 10px;
+  padding: 0 10px;
+}
+.profile .photo {
+  padding: 0;
+  width: 100%;
+}
+.profile .photo img {
+  width: 100%;
+}
+.profile .name h2 {
+  margin: 0;
+  font-size: 2em;
+  line-height: 1.1em;
+}
+.profile .looking-for-work {
+  font-weight: bold;
+}
+.profile .links {
+  display: inline-block;
+  padding: 0;
+  line-height: 0;
+}
+.profile .links {
+  display: block;
+  padding-top: 4px;
+}
+.profile .links > li {
+  display: block;
+  margin: 0 5px;
+  margin-bottom: 10px;
+}
+.profile .links > li, .profile .links > li > a {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+.profile .links > li {
+  display: inline-block;
+}
+.profile .links .email {
+  background-image: url('glyphicons_free/glyphicons-social/png/glyphicons-social-40-e-mail.png');
+}
+.profile .links .twitter {
+  background-image: url('glyphicons_free/glyphicons-social/png/glyphicons-social-32-twitter.png');
+}
+.profile .links .facebook {
+  background-image: url('glyphicons_free/glyphicons-social/png/glyphicons-social-31-facebook.png');
+}
+.profile .links .github {
+  background-image: url('glyphicons_free/glyphicons-social/png/glyphicons-social-22-github.png');
+}
+.profile .links .website {
+  background-image: url('glyphicons_free/glyphicons/png/glyphicons-341-globe.png');
+}
+.profile .links .blog {
+  background-image: url('glyphicons_free/glyphicons-social/png/glyphicons-social-6-blogger.png');
+}
+.profile .links .linkedin {
+  background-image: url('glyphicons_free/glyphicons-social/png/glyphicons-social-18-linked-in.png');
+}
+.profile .links .youtube {
+  background-image: url('glyphicons_free/glyphicons-social/png/glyphicons-social-23-youtube.png');
+}
+.profile .links .lastfm {
+  background-image: url('glyphicons_free/glyphicons-social/png/glyphicons-social-37-last-fm.png');
+}
+#footer {
+  clear: both;
+}
