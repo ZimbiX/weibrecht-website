@@ -104,8 +104,8 @@ h1, h2, h3, h4, h5 {
 .profile .links .website {
   background-image: url('glyphicons_free/glyphicons/png/glyphicons-341-globe.png');
 }
-.profile .links .blog {
-  background-image: url('glyphicons_free/glyphicons-social/png/glyphicons-social-6-blogger.png');
+.profile .links .medium {
+  background-image: url('icons/glyphicons-ish-social-medium.png');
 }
 .profile .links .linkedin {
   background-image: url('glyphicons_free/glyphicons-social/png/glyphicons-social-18-linked-in.png');
