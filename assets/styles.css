@@ -15,7 +15,7 @@ b, strong, th {
 }
 #main {
   margin: 0 auto;
-  padding-top: 20px;
+  padding: 20px 0;
 }
 h1, h2, h3, h4, h5 {
   font-weight: 300;
@@ -85,6 +85,7 @@ h1, h2, h3, h4, h5 {
   display: block;
   width: 24px;
   height: 24px;
+  background-repeat: no-repeat;
 }
 .profile .links > li {
   display: inline-block;
@@ -116,12 +117,23 @@ h1, h2, h3, h4, h5 {
 .profile .links .lastfm {
   background-image: url('glyphicons_free/glyphicons-social/png/glyphicons-social-37-last-fm.png');
 }
+.profile .links .resume {
+  background-image: url('glyphicons_free/glyphicons/png/glyphicons-342-briefcase.png');
+  background-position: 1px 1px;
+}
 #footer {
   clear: both;
+  margin-bottom: 10px;
   opacity: 0.5;
-  margin-top: 10px;
-  margin-bottom: 40px;
+  transition: opacity 100ms;
 }
 #footer:hover {
   opacity: 1;
+}
+#footer .containerx {
+  margin: 0 auto;
+  padding: 10px 15px;
+}
+#footer .containerx p:last-child {
+  margin-bottom: 0;
 }
