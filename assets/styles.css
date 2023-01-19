@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5 {
 }
 .profile .links {
   display: inline-block;
-  padding: 0;
+  padding: 0 10px;
   line-height: 0;
 }
 .profile .links {
@@ -83,43 +83,49 @@ h1, h2, h3, h4, h5 {
 }
 .profile .links > li, .profile .links > li > a {
   display: block;
-  width: 24px;
-  height: 24px;
+  width: 32px;
+  height: 32px;
+  background-size: 32px;
   background-repeat: no-repeat;
 }
 .profile .links > li {
   display: inline-block;
 }
 .profile .links .email {
-  background-image: url('glyphicons_free/glyphicons-social/png/glyphicons-social-40-e-mail.png');
+  background-image: url('icons/glyphicons/envelope.png');
 }
 .profile .links .twitter {
-  background-image: url('glyphicons_free/glyphicons-social/png/glyphicons-social-32-twitter.png');
+  background-image: url('icons/glyphicons/twitter.svg');
 }
 .profile .links .facebook {
-  background-image: url('glyphicons_free/glyphicons-social/png/glyphicons-social-31-facebook.png');
+  background-image: url('icons/glyphicons/facebook.svg');
 }
 .profile .links .github {
-  background-image: url('glyphicons_free/glyphicons-social/png/glyphicons-social-22-github.png');
+  background-image: url('icons/glyphicons/github.svg');
 }
 .profile .links .website {
-  background-image: url('glyphicons_free/glyphicons/png/glyphicons-341-globe.png');
+  background-image: url('icons/glyphicons/globe.png');
 }
 .profile .links .medium {
-  background-image: url('icons/glyphicons-ish-social-medium.png');
+  background-image: url('icons/glyphicons/medium.svg');
 }
 .profile .links .linkedin {
-  background-image: url('glyphicons_free/glyphicons-social/png/glyphicons-social-18-linked-in.png');
+  background-image: url('icons/glyphicons/linkedin.svg');
 }
 .profile .links .youtube {
-  background-image: url('glyphicons_free/glyphicons-social/png/glyphicons-social-23-youtube.png');
+  background-image: url('icons/glyphicons/youtube.svg');
 }
 .profile .links .lastfm {
-  background-image: url('glyphicons_free/glyphicons-social/png/glyphicons-social-37-last-fm.png');
+  background-image: url('icons/freeiconshop.com/lastfm-solid.svg');
+}
+.profile .links .stack-overflow {
+  background-image: url('icons/glyphicons/stack-overflow.svg');
+}
+.profile .links .steam {
+  background-image: url('icons/glyphicons/steam.svg');
 }
 .profile .links .resume {
-  background-image: url('glyphicons_free/glyphicons/png/glyphicons-342-briefcase.png');
-  background-position: 1px 1px;
+  background-image: url('icons/glyphicons/briefcase.png');
 }
 #footer {
   clear: both;
